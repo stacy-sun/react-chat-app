@@ -1,0 +1,102 @@
+
+
+#container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas: "sidebar main";
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+}
+
+#main {
+  grid-area: main;
+  background: #fff;
+  height: 100%;
+  overflow: hidden;
+}
+
+#sidebar {
+  grid-area: sidebar;
+  padding: 5px 10px;
+  height: 100%;
+}
+
+#sidebar h2 {
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  margin: 30px auto;
+  text-transform: uppercase;
+}
+
+#sidebar h1 {
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  margin: 30px auto;
+}
+
+#sidebar hr {
+  width: 90%;
+  opacity: 0.25;
+}
+
+.messageList {
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.messageList ul li {
+  list-style: none;
+}
+
+.inputForm {
+  margin-bottom: 0;
+  /* overflow: hidden;
+  width: 100%; */
+  background-color: #F2F2F2;
+  height: 100%;
+  padding: 15px;
+}
+
+.inputForm input {
+  width: 80%;
+  background-color: #F2F2F2;
+  border: none;
+  line-height: 30px;
+}
+
+.inputForm input:focus {
+  border: none;
+}
+
+.inputForm button {
+  position: relative;
+  top: 5vh;
+  float: right;
+  right: 10px;
+  color: #fff;
+  border-radius: 27px;
+  height: 45px;
+  border: none;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: none;
+}
+
+.themeButtom {
+  display: block;
+  margin: 50px auto;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: none;
+  border-radius: 27px;
+  height: 45px;
+}
+
+.themeButtom:focus, .themeButtom:hover {
+  color: #fff;
+  border-color: rgb(211, 211, 211);
+}

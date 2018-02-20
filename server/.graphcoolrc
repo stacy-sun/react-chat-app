@@ -1,0 +1,3 @@
+targets:
+  Chat: shared-us-west-2/cjdt5k3sx00jd0112x0658ffe
+  default: Chat

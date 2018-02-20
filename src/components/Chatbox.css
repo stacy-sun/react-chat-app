@@ -1,0 +1,27 @@
+
+.chat-message {
+    padding: 0 20px;
+  }
+
+
+.chat-message h5 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+.chat-message p {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: lightgray;
+
+}
+
+.chat-message span {
+    margin-left: 5px;
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 4px
+}
