@@ -15,13 +15,15 @@ import { getMainDefinition } from 'apollo-utilities'
 
 const wsLink = new WebSocketLink({
     
-      uri: 'wss://subscriptions.us-west-2.graph.cool/v1/cjdt5k3sx00jd0112x0658ffe',
+      uri: 'Your WebSocket URI',
+      //Replace the uri
       options: {
         reconnect: true
       }
     })
 
-const httpLink = new HttpLink({ uri: 'https://api.graph.cool/simple/v1/cjdt5k3sx00jd0112x0658ffe' })
+const httpLink = new HttpLink({ uri: 'Your URI' })
+//Replace the uri
 
 const link = split(
     
